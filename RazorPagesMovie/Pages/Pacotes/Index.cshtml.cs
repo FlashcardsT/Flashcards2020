@@ -39,7 +39,7 @@ namespace RazorPagesMovie.Pages.Movies
 
             if (!string.IsNullOrEmpty(SearchString))
             {
-                movies = movies.Where(s => s.Title.Contains(SearchString));
+                movies = movies.Where(s => s.Categoria.Contains(SearchString));
             }
 
             if (!string.IsNullOrEmpty(MovieGenre))
