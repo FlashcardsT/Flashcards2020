@@ -1,0 +1,22 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Asap:wght@500&display=swap');
+body {
+    background: #f7f6f6;
+    font-family: 'Asap', 'sans-serif';
+    background-color: #2fc9ee;
+}
+
+ul {
+    list-style:none;
+    display: flex;
+}
+
+li{
+    margin: 0 15px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+header {
+    background-color:#2fc9ee;
+}
