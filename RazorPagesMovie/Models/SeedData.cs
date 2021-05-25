@@ -25,38 +25,27 @@ namespace RazorPagesMovie.Models
                 context.Movie.AddRange(
                     new Movie
                     {
-                        Categoria = "When Harry Met Sally",
-                        ReleaseDate = DateTime.Parse("1989-2-12"),
-                        Genre = "Romantic Comedy",
-                        Price = 7.99M,
-                        Rating = "R"
+                        Categoria = "Ingles",
+                        Pacote = "Bimestre 01",
                     },
 
                     new Movie
                     {
-                        Categoria = "Ghostbusters ",
-                        ReleaseDate = DateTime.Parse("1984-3-13"),
-                        Genre = "Comedy",
-                        Price = 8.99M,
-                        Rating = "R"
+                        Categoria = "Matematica",
+                        Pacote = "Bimestre 01",
                     },
 
                     new Movie
                     {
-                        Categoria = "Ghostbusters 2",
-                        ReleaseDate = DateTime.Parse("1986-2-23"),
-                        Genre = "Comedy",
-                        Price = 9.99M,
-                        Rating = "R"
+                        Categoria = "Portugues",
+                        Pacote = "Bimestre 01",
+
                     },
 
                     new Movie
                     {
-                        Categoria = "Rio Bravo",
-                        ReleaseDate = DateTime.Parse("1959-4-15"),
-                        Genre = "Western",
-                        Price = 3.99M,
-                        Rating = "R"
+                        Categoria = "Geografia",
+                        Pacote = "Bimestre 01",
                     }
                 );
                 context.SaveChanges();
