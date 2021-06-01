@@ -2,13 +2,25 @@
 @model LoginModel
 @{
     ViewData["Title"] = "Login";
+    Layout = "";
 }
-
-
-<div class="container">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Recall</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/sitec.css" />
+    <link rel="shortcut icon" href="https://i.imgur.com/lmuKVHv.png">
+</head>
+<body>
+    <div class="text-center">
+        <img src="https://i.imgur.com/lmuKVHv.png" alt="Icone Gostoso" />
+    </div>
+    <div class="container">
         <article class="card-body mx-auto" style="max-width: 400px;">
             <h4 class="card-title mt-3 text-center">Acessar Conta</h4>
-            <form>
+            <form action="/Home">
                 <div class="form-group input-group">
                     <div class="input-group-prepend">
                         <span class="input-group-text"> Nome </span>
@@ -22,10 +34,10 @@
                     <input name="senha" class="form-control" type="password">
                 </div>
                 <div class="form-group">
-                    <button type="submit" class="btn btn-primary btn-block"> Logar  </button>
+                    <button type="submit" class="btn btn-block text-light" style="background-color :#2fc9ee"> Logar  </button>
                 </div>
-                <p class="text-center">Esqueceu a senha? <a href="">Clique Aqui</a> </p>
+                <p class="text-center">Nao possui uma conta? <a href="/Register">Clique Aqui</a> </p>
             </form>
         </article>
-
-</div>
+    </div>
+</body>
