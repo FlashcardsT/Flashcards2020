@@ -8,7 +8,7 @@
 <h1>Index</h1>
 
 <p>
-    <a asp-page="Create">Create New</a>
+    <a asp-page="Create">Criar Novo</a>
 </p>
 <form>
     <p>
@@ -19,6 +19,15 @@
         <input type="submit" value="Filter" />
     </p>
 </form>
+
+<div id='cat'>
+
+    <select name="categ" id="categ">
+        <option> @Html.DisplayNameFor(model => model.Movie[0].Categoria) </option>
+        <option> @Html.DisplayNameFor(model => model.Movie[0].Pacote)</option>
+    </select> <br>
+
+</div>
 
 <table class="table">
     <thead>

@@ -19,3 +19,7 @@ nav{
 header {
     background-color:#2fc9ee;
 }
+.cara {
+    display: inline-block;
+    width: 90px;
+}

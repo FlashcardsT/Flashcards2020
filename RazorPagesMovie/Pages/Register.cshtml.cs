@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace RazorPagesMovie.Pages
 {
-    public class LoginModel : PageModel
+    public class RegisterModel : PageModel
     {
         public void OnGet()
         {

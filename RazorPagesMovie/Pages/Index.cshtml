@@ -1,20 +1,31 @@
 ﻿@page
-@model IndexModel
+@model LoginModel
 @{
-    ViewData["Title"] = "Home";
+    ViewData["Title"] = "Login";
 }
 
-<div class="text-center">
-    <img src="https://i.imgur.com/lmuKVHv.png" alt="Icone Gostoso" />
-    <h3 class="display-4">Bem-Vindo(a) ao Recall</h3>
-    <div class="container d-flex">
-        <div class="row">
-            <div class="merdainha">
-                O Recall é o mais novo programa para gerenciamento de flashcards, com diversas funções, ele poderá te ajudar a se lembrar de qualquer coisa que necessite, e com um design simples e de fácil uso.
-                Você sabia? O Recall possui um app gratuito para android, baixe-o agora mesmo clicando no card abaixo
-            </div>
-        </div>
-    </div>
-    </h1>
-    <p>Esse link é <a href="https://i.imgur.com/gCww5DF.mp4">Video legal</a>.</p>
+
+<div class="container">
+        <article class="card-body mx-auto" style="max-width: 400px;">
+            <h4 class="card-title mt-3 text-center">Acessar Conta</h4>
+            <form>
+                <div class="form-group input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"> Nome </span>
+                    </div>
+                    <input name="nome" class="form-control" type="text">
+                </div>
+                <div class="form-group input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"> Senha </span>
+                    </div>
+                    <input name="senha" class="form-control" type="password">
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary btn-block"> Logar  </button>
+                </div>
+                <p class="text-center">Esqueceu a senha? <a href="">Clique Aqui</a> </p>
+            </form>
+        </article>
+
 </div>
