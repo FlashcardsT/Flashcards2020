@@ -23,3 +23,33 @@ header {
     background-color: #2fc9ee;
     border-color: #2fc9ee;
 }
+.mais {
+    margin-right: 12px;
+    width: 17px;
+    margin-top: -5px;
+}
+.pro {
+    height: 10px;
+    width: 300px;
+    margin-top: 50px;
+}
+.pao {
+    height: 10px;
+    width: 220px;
+    border-color: white;
+    background-color: #2fc9ee;
+    border-radius: 5px;
+}
+
+
+.pao2 {
+    resize: none;
+    text-align: center;
+    padding-top: 10px;
+}
+.pao3 {
+    background-color: #2fc9ee;
+    width: 40px;
+    height: 30px;
+    color: white;
+}   
